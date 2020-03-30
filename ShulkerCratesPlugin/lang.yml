@@ -1,0 +1,36 @@
+# All Error Messages
+errors:
+  no-permission: "&cSorry, you don't have permission to use this command!"
+  player-only: "&cThis command can not be used in the Console!"
+  command-not-found: "&cCommand not found"
+  dexist: "doesn't exist!"
+  exists: "already exists!"
+  wrong-command: "The command is wrong! You need to type this:"
+
+# All Messages
+messages:
+  # Messages
+  succes-tp: "you are teleported to"
+  succes-removed: "is succesfully removed!"
+  succes-created: "is succesfully created!"
+  holo-changed: "Hologram is changed to"
+  # Crates(Data) Messages
+  crates:
+    scdata-creating: "Creating CrateData for"
+    scdata-loading: "Loading CrateData for"
+    scdata-saving: "Saving CrateData for"
+    not-found: "The ShulkerCrate could not be found"
+  # Variables Messages
+  variables:
+    name: "Adding Name variable to"
+    holo: "Adding Status variable to"
+    owner: "Adding Owner variable to"
+
+# All Command Messages
+commands:
+  sc-help: "Let you show all the ShulkerCrates commands"
+  sc-add: "Add an ShulkerCrate to the list"
+  sc-remove: "Remove an ShulkerCrate from list"
+  sc-setholo: "Change the Lines of the Holograms"
+  sc-list: "Let you show a list of all the ShulkerCrates with coordinates"
+  sc-msg2: "Maybe you should make a few"

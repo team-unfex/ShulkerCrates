@@ -1,0 +1,51 @@
+# ShulkerCrates Config File by SKELIC
+# Don't change this number unless you want to reset the config file!
+Version: 1.6
+
+Updater:
+  # Should this plugin be automatically updated
+  Auto: true
+  # Should you get a notification in the console if there is an update available, this wont happen if Auto is set to true
+  Notify: false
+
+# MySQL Settings
+MySQL:
+  Enabled: false
+  Host: "host"
+  Port: 3306
+  Database: "database"
+  Username: "username"
+  Password: "password"
+
+# Change every ShulkerCrate Settings
+ShulkerCrates:
+  # Don't change this number
+  Amount: 0
+  # Change the Shulker Box Color (SPELL THE FULL COLOR NAME FOR EXAMPLE: WHITE, BLACK, GREEN etc.)
+  BoxColor: "White"
+  # Change the hologram above the ShulkerCrate
+  Holograms:
+    Enabled: true
+    Height: 1.75
+    First-Line: "&dShulkerCrate"
+    Second-Line: "&eCLICK ME!"
+    Third-Line: "YOU HAVE: &6%CRATES_OWNED%"
+  # Change the rarity names
+  Rarity:
+    Common: "Common"
+    Uncommon: "Uncommon"
+    Rare: "Rare"
+    Epic: "Epic"
+    Legendary: "Legendary"
+  # Change the rarity colors
+  Colors:
+    Common: "Dark Green"
+    Uncommon: "Green"
+    Rare: "Pink"
+    Epic: "Red"
+    Legendary: "Gold"
+
+Menus:
+  ShulkerCrates: ""
+  Shop: ""
+  Open: ""

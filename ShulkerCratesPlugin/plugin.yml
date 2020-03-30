@@ -1,0 +1,13 @@
+main: nl.skelic.sc.Core
+name: ShulkerCrates
+version: 1.6
+author: Team UnFex(SKELIC, Unusu4l)
+description: ShulkerCrates Plugin is a Mystery Crate plugin.
+depend: [Vault]
+api-version: 1.13
+commands:
+  shulkercrates:
+     description: This command is used for every ShulkerCrates commands!
+     aliases: [sc, shulker, scrates, shulkerc, crates]
+     permision: shulkercrates.*
+     permission-message: Sorry, you don't have permission to use this command!
